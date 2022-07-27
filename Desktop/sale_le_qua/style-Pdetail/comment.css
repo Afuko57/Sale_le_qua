@@ -1,0 +1,46 @@
+.review-cover{
+  max-width:100% ;
+  width: 1065px;
+  margin: auto;
+  height:auto;
+ /* background-color: aqua;*/
+}
+.flex-container-pd{
+	display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+ /*background-color:#d8d8d8;*/
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+.child-pd{
+ background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  width:300px;
+  height: auto;
+  font-size: 20px;
+  height: 200px;
+}
+.date-review{
+  font-size: 16px;
+}
+.score{
+  margin-left: 50px;
+  font-size: 24px;
+  font-weight: lighter;
+}
+@media (max-width:768px) {
+  .score{
+    margin-left: 50px;
+    font-size: 24px;
+  }
+}
+@media (max-width:360px) {
+  .child-pd{
+  margin-left: 20px;
+  }
+}

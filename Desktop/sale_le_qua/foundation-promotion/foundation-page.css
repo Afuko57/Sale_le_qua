@@ -1,0 +1,238 @@
+/*ค้นหามูลนิธิ*/
+
+.f-category {
+  width: 1200px;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+  /*background-color: rgb(43, 255, 0);*/
+  position: relative;
+  padding-bottom: 40px;
+  margin-top:35px ;
+}
+
+#title-f {
+  font-size: 36px;
+  color: rgb(0, 0, 0);
+}
+
+.flex-cate {
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+ /* background-color: blueviolet;*/
+}
+
+.cate-item {
+  background: #F0F0F0;
+  width: 103px;
+  height: 98px;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+
+.cate-item:hover {
+  background-color: #F06848;
+}
+
+.f-icon {
+  margin: 10px 0px 1px 25px;
+}
+
+.ficon-txt {
+  color: black;
+  text-align: center;
+  font-size: 12px;
+}
+.flex-container{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  /*background-color:#1abc9c;*/
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+
+.from-f {
+  float: right;
+  margin: 20px;
+}
+
+#f-search {
+  width: 328px;
+  height: 46px;
+  font-family: 'Prompt';
+  padding-left: 10px;
+  word-break: keep-all;
+}
+
+.fa-search {
+  font-size: 24px;
+  float: left;
+  width: 20%;
+}
+
+button {
+  position: relative;
+  margin-left: -40px;
+  background-color: transparent;
+  width: 40px;
+  cursor: pointer;
+  top: 10px;
+  border: none;
+}
+
+/*มูลนิธิ*/
+
+.foundation-main {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  /*background-color: blue;*/
+  position: relative;
+  padding-top: 20px;
+}
+
+h1 {
+  font-size: 1.75rem;
+  text-align: center;
+  color: #F06848;
+}
+h1:hover{
+  color: black;
+}
+.f-detail{
+  text-decoration: none;
+}
+h2{
+  text-align: center;
+  color: #F06848;
+  font-size: 1.3rem;
+}
+article{
+ 
+  word-break: break-all;
+}
+
+/* Pattern styles */
+.container-f {
+  display: flex;  
+  background: #E5E5E5;
+  width: 100%;
+}
+.container-f:nth-child(2n+1) {
+  display: flex;  
+  background: #F1F1F1;
+}
+.flex-f {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+  max-width: 100%;
+}
+ 
+
+.left-half {
+  /*background-color: #ff9e2c;*/
+  flex: 1;
+  padding: 1rem;
+  width:100%;
+  height:auto;
+}
+
+.right-half {
+  /*background-color: #b6701e;*/
+  flex: 1;
+  padding: 2rem;
+  max-width:100%;
+  width:100%;
+  height:auto;
+}
+/*รายละเอียด*/
+.f-img{
+  margin: 80px;
+  width:400px ;
+  max-width: 100%;
+  height: 290px;
+ /* background-color:#FEB651 ;*/
+}
+
+
+.imgF-storeresize{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height:290px;
+}
+
+@media (max-width:768px) {
+  #title-f {
+    font-size: 24px;
+  }
+  .flex-cate {
+    justify-content: center;
+  }
+  .cate-item {
+    margin-left: 10px;
+  }
+  .f-img{
+    margin: 0px;
+    max-width: 100%;
+    height: 290px;
+   /* background-color:#FEB651 ;*/
+  }
+}
+
+@media (max-width:361px) {
+  button {
+    position: absolute;
+    margin-top: 255px;
+  }
+  
+  .f-img{
+    margin: -5px;
+    max-width: 100%;
+    width: 500px;
+    height: 100px;
+   /* background-color:#FEB651 ;*/
+  }
+  
+ .imgF-storeresize{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height:100px;
+ }
+ .left-half {
+  /*background-color: #ff9e2c;*/
+  flex: 1;
+  padding: 1rem;
+  width:100%
+  }
+  .flex-f{
+    width: 360px;
+    max-width: 100%;
+  }
+  .from-f {
+    float: right;
+    margin: 10px;
+  }
+  
+  .right-half {
+    /*background-color: #b6701e;*/
+    flex: 1;
+    padding: 1rem;
+    max-width:100%;
+    width:100%;
+  }
+  .flex-container{
+    width: 100%;
+  }
+}

@@ -1,0 +1,89 @@
+.register-main{
+  max-width: 100%;
+  background-color: #F0F0F0;
+ 
+  padding-bottom:300px; 
+}
+.register-box{
+  width: 500px;
+  height:auto;
+  background-color: #ffff;
+  position: relative;
+  margin: auto;
+  top:180px;
+  
+}
+.register-text{
+  font-size: 24px;
+  margin-top: 50px;
+  position: relative;
+  
+}
+/*form*/
+form {
+  margin-left: 40px;
+  padding-top: 20px;
+}
+input[type=text], select {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 12px 0;
+  display: inline-block;
+  border: 2px solid #A6A6A6;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Prompt', sans-serif;
+  font-size:24px ;
+}
+input[type=password], select {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 12px 0;
+  display: inline-block;
+  border: 2px solid #A6A6A6;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Prompt', sans-serif;
+  font-size:24px ;
+}
+
+input[type=submit] {
+  width: 90%;
+  height: 80px;
+  background-color: #F06848;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  font-family: 'Prompt', sans-serif;
+  margin-top: 20px;
+}
+
+input[type=submit]:hover {
+  background-color: #171E27;
+}
+@media (max-width:360px){
+  .register-box{
+    width: 320px;
+    
+    
+  }
+  form {
+    margin-left: 25px;
+    padding-top: 20px;
+  }
+  input[type=text], select {
+    width: 90%;
+  }
+  input[type=submit] {
+    width: 90%;
+  }
+}

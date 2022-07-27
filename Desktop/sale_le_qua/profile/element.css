@@ -1,0 +1,306 @@
+.img-box{
+    width: 150px;
+    height: 150px;
+    background-color: transparent;
+ 
+    border:solid #cacaca;
+    border-radius: 10px;
+    position: absolute;
+  }
+  
+  #img-inbox{
+    width: auto;
+    height: 140px;
+    margin:1px;
+  }
+  .wait-detail{
+    width: 100%;
+    max-width: 100%!important;
+    height:auto;
+    background-color: rgb(255, 255, 255);
+   margin: auto;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    flex-direction:row;
+    flex-wrap:wrap;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    border: 2px solid rgb(185, 185, 185);
+    border-radius: 20px;
+
+  }
+  
+  #child-wait{
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    padding: 15px;
+    width:470px;
+    height: 150px;
+    font-size: 20px;
+    word-break: break-all;
+    overflow: hidden;
+  
+    
+  }
+  
+  
+  /*ข้อมูล*/
+  .name-p,.total-p,.price-p,.give-p,.status-p,.deatetime-p,.shipment_name,.shipment_code{
+    font-size: 18px;
+    
+  }
+  .name-p{
+    width: 300px;
+    height: 50px;
+    /*background-color: bisque;*/
+    word-wrap: break-word;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow:hidden;
+    position: absolute;
+    margin-left: 200px;
+  }
+  .total-p{
+    margin-top: 50px;
+    margin-left: 100px;
+    position: absolute;
+  
+  }
+  .price-p{
+    margin-top: 50px;
+    margin-left: 200px;
+    position: absolute;
+  }
+  .give-p{
+    margin-top: 100px;
+    margin-left: 100px;
+    position: absolute;
+  }
+  .delete-like{
+      font-size: 14px;
+      float: right;
+      color: black;
+  }
+  .button {
+    background-color: #ff7300;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 1px;
+    cursor: pointer;
+    position: relative;
+  }
+  .button-f {
+    background-color: #ff7300;
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 1px;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: -15px;
+  }
+  .button-wait{
+    background-color: #ff7300;
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  
+    cursor: pointer;
+    margin-left: 100px;
+    
+  }
+  .status-p{
+    font-weight: bold;
+    color: #ff7300;
+    margin-top: 50px;
+    position: absolute;
+  }
+  .datetime-p{
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 200px;
+    font-weight: bold;
+    color: #ff7300;
+  }
+  .datetime-p-f{
+    margin-top: 50px;
+    position: absolute;
+    
+  }
+  .shipment_name{
+    margin-top: 100px;
+    margin-left: -245px;
+    position: absolute;
+  }
+  .shipment_name-f{
+    margin-top: 100px;
+    margin-left: -275px;
+    position: absolute;
+  }
+  .shipment_name-wait{
+    margin-top: 100px;
+    margin-left: -205px;
+    position:absolute;
+  }
+  /*ข้อมูล*/
+  .lot-p{
+    margin-top: 100px;
+    position: absolute;
+    font-size: 18px;
+  }
+  .code-p{
+    position: absolute;
+    margin-top: 100px;
+    font-size: 18px;
+    margin-left: 200px;
+  }
+  .shipping-by{
+    margin-top: 100px;
+    font-size: 18px;
+    margin-left: -140px;
+    position: absolute;
+  }
+  .status-p-c{
+    font-weight: bold;
+    color: #ff7300;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: -345px;
+    font-size: 18px;
+  }
+  .datetime-p-c{
+    margin-top: 50px;
+    position: absolute;
+    font-size: 18px;
+    margin-left: -150px;
+  }
+  
+  @media (max-width: 360px){
+    .img-box{
+      width: 80px;
+      height: 80px;
+      /*background-color: aqua;*/
+      margin-top:30px;
+      margin-left:-15px;
+      position: absolute;
+      margin-left: 5px;
+    }
+    .wait-detail{
+      margin-top: -30px;
+      position:relative;
+  
+      z-index: 1;
+    }
+    .name-p,.total-p,.price-p,.give-p,.follow-ship,.status-p,.datetime-p-c,.status-p-c,.lot-p,.code-p,.shipping-by,.deatetime-p,.shipment_name,.shipment_code, .datetime-p-f,.lot-p,.code-p{
+      font-size: 14px;
+      
+    }
+    .name-p{
+      width: 190px;
+      height: 30px;
+    
+    }
+    .price-p{
+      margin-top: 130px;
+      margin-left: 100px;
+      position: absolute;
+    }
+    .datetime-p{
+      margin-top: 60px;
+      position: absolute;
+      margin-left: 150px;
+      font-size: 14px;
+    }
+    .datetime-p-f{
+      margin-top: 30px;
+      position: absolute;
+    }
+    #child-wait{
+      background-color: #ffffff;
+    
+      padding: 15px;
+      width:450px;
+      height: 150px;
+      font-size: 20px;
+      word-break: break-all;
+      overflow: hidden;
+    
+      
+    }
+    .shipment_name-wait{
+      margin-left: -210px;
+      margin-top: 60px;
+  
+    }
+    .shipment_name{
+      margin-left: -210px;
+      margin-top: 60px;
+      position: absolute;
+    }
+    .button-f{
+      margin-top: 5px;
+    }
+    .total-p{
+      margin-top: 30px;
+    }
+    .give-p{
+      margin-top: 60px;
+    }
+    .price-p{
+      margin-top: 90px;
+    }
+    .shipment_name-f{
+      margin-top: 60px;
+      margin-left: -212px;
+      position: absolute;
+    }
+    .lot-p{
+      margin-top: 90px;
+      position: absolute;
+      font-size: 18px;
+    }
+    .code-p{
+      position: absolute;
+      margin-top: 120px;
+      font-size: 18px;
+      margin-left: 100px;
+    }
+    .shipping-by{
+      margin-top: 130px;
+      font-size: 18px;
+      margin-left: -245px;
+      position: absolute;
+    }
+    .status-p-c{
+      font-weight: bold;
+      color: #ff7300;
+      margin-top: 50px;
+      position: absolute;
+      margin-left: -245px;
+      font-size: 18px;
+    }
+    .datetime-p-c{
+      margin-top: 50px;
+      position: absolute;
+      font-size: 18px;
+      margin-left: -120px;
+    }
+  }

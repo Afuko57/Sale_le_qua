@@ -1,0 +1,55 @@
+
+.fa-heart {
+	transform: scale(1);
+	display: block;
+	margin: 0.25em 0.5em;
+	transition: all 0.2s cubic-bezier(0.36, 0.07, 0.57, 0.99);
+	color: red;
+	cursor: pointer;
+}
+.fa-heart:hover {
+	transform: scale(1.5);
+	color: hotpink;
+}
+main .multi-icon .set {
+	position: relative;
+	height: 40px;
+	width: 60px;
+}
+main .multi-icon .set i {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+main .multi-icon .set i:first-of-type {
+	opacity: 1;
+}
+main .multi-icon .set:hover i {
+	transform: scale(1.5);
+	color: #1813e4;
+}
+.fa-heart:hover {
+	animation: heart 0.5s cubic-bezier(0.36, 0.07, 0.57, 0.99) infinite;
+}
+.heart-a {
+	text-decoration: none !important;
+	color: inherit;
+}
+@keyframes heart {
+	0% {
+		transform: scale(1.5);
+   }
+	20% {
+		transform: scale(2);
+   }
+	30% {
+		transform: scale(1.5);
+   }
+	40% {
+		transform: scale(2);
+   }
+	100% {
+		transform: scale(1.5);
+   }
+}

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap');
+
+.cover-page{
+    width:100%;
+    max-width:100%;
+    margin: auto;
+    max-width: 100%;
+    margin-top: 120px;
+    position: absolute;
+   /*background-color: #509cff;*/
+}
+ 
+#wait-pay {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  
+}
+
+#wait-pay td, #wait-pay th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#wait-pay tr:nth-child(even){background-color: #ffffff;}
+
+#wait-pay tr:hover {background-color: #ddd;}
+
+#wait-pay th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #171E27;
+  color: white;
+}
+h3{
+  margin-top: 20px;
+}
+/*ตารางหน้าProfile*/
+#t-profile {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 30px;
+  
+}
+
+#t-profile td, #t-profile th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#t-profile{background-color: #f7d088;}
+
+#t-profile tr:nth-child(even){background-color: #ffffff;}
+
+#t-profile tr:hover {background-color: rgb(9, 0, 58); color:white}
+
+#t-profile th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #272317;
+  color: white;
+}
+/*table*/
+#wait-pay2 {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  
+}
+
+#wait-pay2 td, #wait-pay2 th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#wait-pay2{background-color: #d4d4d4;}
+#wait-pay2 tr:nth-child(even){background-color: #ffffff;}
+
+#wait-pay2 tr:hover {background-color: #ddd;}
+
+#wait-pay2 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #171E27;
+  color: white;
+}
+@media (max-width:360px){
+  #wait-pay2{
+    margin-left: -10px;
+  }
+}

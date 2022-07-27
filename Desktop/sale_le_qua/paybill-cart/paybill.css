@@ -1,0 +1,114 @@
+
+
+.main-paybill{
+  max-width:100% ;
+  width: 1125px;
+  margin: auto;
+  height: auto;
+  background-color: rgb(231, 231, 231);
+  padding-top: 20px;
+  padding-bottom: 50px;
+ 
+}
+
+input[type=text], select {
+  width: 500px;
+  max-width:100% ;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Prompt', sans-serif;
+}
+input[type=number],#bankID {
+  width: 500px;
+  max-width:100% ;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Prompt', sans-serif;
+}
+input[type=radio],#VISA,#Master-card,#JCB,#Union{
+  width: 30px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+
+
+input[type=submit] {
+  width: 500px;
+  max-width:100% ;
+  background-color: #ff941b;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 24px;
+  font-family: 'Prompt', sans-serif;
+}
+input[type=input] ,#month-exp {
+  width: 120px;
+  max-width:100% ;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=number] ,#year-exp {
+  width: 120px;
+  max-width:100% ;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Prompt', sans-serif;
+}
+
+
+input[type=submit]:hover {
+  background-color: #100733;
+}
+
+.form-main{
+  border-radius: 5px;
+  padding-top:15%;
+  margin-top: 100px;
+  max-width:100% ;
+  width: 500px;
+  margin: auto;
+ /* background-color: blanchedalmond;*/
+}
+
+@media (max-width:768px){
+  .main-paybill{
+    padding-top: 50px;
+ }
+}
+@media (max-width:360px){
+  .main-paybill{
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+ }
+ input[type=input] ,#month-exp,#year-exp {
+  width: 60px;
+  max-width:100% ;
+  padding: 12px 5px;
+ 
+}
+input[type=radio],#VISA,#Master-card,#JCB,#Union{
+ margin: 10px;
+}
+}

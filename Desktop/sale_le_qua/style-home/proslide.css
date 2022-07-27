@@ -1,0 +1,493 @@
+.proslide-main {
+  /*background-color: #ff2828;*/
+  max-width: 100%;
+  width: 1155px;
+  height: 620px;
+  margin: 0 auto;
+
+}
+
+.pro-text {
+  margin-left: 120px;
+  margin-top: 80px;
+  font-size: 36px;
+  position: absolute;
+}
+
+.proAll-button {
+  background-color: #14213D;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  font-family: 'Prompt', sans-serif;
+  cursor: pointer;
+  width: 168px;
+  height: 55px;
+  margin-top: 80px;
+  margin-right: 120px;
+  float: right;
+
+}
+
+.multiPro-main {
+  max-width: 100%;
+  width: 1155px;
+  height: 364px;
+  /* background-color: bisque;*/
+  margin-top: 180px;
+  position: absolute;
+
+}
+
+/*สไลด์*/
+
+
+.schedule-container1 {
+  width: 1155px;
+  height: 350px;
+  max-width: 100%;
+  margin: 0 auto;
+  /* background: rgb(224, 102, 102);*/
+  z-index: 1;
+  position: absolute;
+  margin-top: -40px;
+}
+
+.column1 {
+  width: 299px;
+  height: 329px;
+  margin: 25px;
+  margin-top: 10px;
+  padding: 5px;
+  border-style: solid;
+  border-color: #C4C4C4;
+
+
+
+}
+
+#column-promotion {
+  width: 100%;
+  height: 329px;
+  /*background-color: rgb(29, 190, 190);*/
+  position: relative;
+  margin-top: -170px;
+}
+
+
+.prev1,
+.next1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  border: 0;
+  outline: none;
+  background-color: transparent;
+  width: 53px;
+  height: 53px;
+  border-radius: 500px;
+  cursor: pointer;
+}
+
+.prev1 {
+  left: -20px;
+  z-index: 1001;
+  background-image: url('.././img/arrow-circle-left.png');
+
+}
+
+.next1 {
+  right: -20px;
+  background-image: url('.././img/arrow-circle-right.png');
+
+}
+
+/*ribbon ในหน้า product detail รูปใหญ่*/
+
+#ribbon-head1 {
+  display: block;
+  background-image: url('.././img/ribbon.png');
+  width: 90px;
+  height: 87px;
+  font-size: 36px;
+  color: aliceblue;
+  text-align: center;
+  margin-right: 15px;
+  float: right;
+  position: relative;
+  z-index: 1;
+  margin-top: -5px;
+  margin-right: -8px;
+}
+
+/* #ribbon-tail1 {
+  display: table-row;
+  position: absolute;
+  margin-top: -5px;
+  margin-left: 43.2px;
+}
+
+#left1, #right1 {
+  display: table-cell;
+  border-top: 0px solid #F06848;
+  border-bottom: 50px solid transparent;
+  height: 0px;
+  width: 0px;
+  margin-right: 15px;
+  float: right;
+  position: absolute;
+  z-index: 1;
+}
+
+#left1 {
+  border-left: 50px solid #F06848;
+  margin-left: 195px;
+  margin-top: 52px;
+  position: absolute;
+  z-index: 1;
+}
+
+#right1 {
+  border-right: 50px solid #F06848;
+  margin-left: 235px;
+  margin-top: 52px;
+  position: absolute;
+  z-index: 1;
+} */
+
+.hard_break1 {
+  white-space: pre-wrap;
+  /* css-3 */
+  white-space: -moz-pre-wrap;
+  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;
+  /* Opera 4-6 */
+  white-space: -o-pre-wrap;
+  /* Opera 7 */
+  word-wrap: break-word;
+  /* Internet Explorer 5.5+ */
+}
+
+.img-pd1 {
+  width: 235px;
+  height: 158px;
+  /* background-color: blue;*/
+  margin-top: 10px;
+  margin-left: 32px;
+  position: absolute;
+
+}
+
+.img-resize1 {
+  max-width: 100%;
+  height: 158px;
+  margin: auto;
+}
+
+.product-box1 {
+  /* background-color: #535353;*/
+  margin-top: 170px;
+  height: 170px;
+  /*แก้ใหม้*/
+
+}
+
+.name1 {
+  font-size: 18px;
+  float: left;
+  margin-left: 10px;
+  position: relative;
+  margin-top: 170px;
+  word-wrap: break-word;
+  width: 300px;
+  overflow: hidden;
+  height: 30px;
+
+}
+
+.exp-bbf1 {
+  font-size: 18px;
+  float: left;
+  margin-left: 10px;
+  position: relative;
+  margin-top: 10px;
+  word-wrap: break-word;
+  width: 300px;
+
+
+}
+
+.pd-detail1 {
+  color: #8E8E8E;
+  font-size: 13px;
+  float: left;
+  margin-left: 10px;
+  position: relative;
+  margin-top: 0px;
+  width: 270px;
+  height: 40px;
+  /* background-color: #FEB651;*/
+  text-align: left;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.original-price1 {
+  font-size: 18px;
+  color: #8E8E8E;
+  text-decoration: line-through;
+  margin-left: 180px;
+  float: left;
+  position: relative;
+  margin-top: -35px;
+  word-wrap: break-word;
+  width: 300px;
+}
+
+.store1 {
+  color: #8E8E8E;
+  font-size: 13px;
+  width: 270px;
+  overflow: hidden;
+  float: left;
+  position: relative;
+  margin-top: -10px;
+  margin-left: 10px;
+  word-wrap: break-word;
+  width: 200px;
+  height: 40px;
+}
+
+.price-is1 {
+  font-size: 18px;
+  margin-top: -10px;
+  float: left;
+  position: relative;
+  margin-left: 10px;
+  word-wrap: break-word;
+  width: 330;
+}
+
+.price-db1 {
+  color: #F06848;
+  font-size: 36px;
+  font-weight: bold;
+  word-wrap: break-word;
+  width: 100px;
+  height: 30px;
+}
+
+
+.cart-pd1 {
+  margin-left: 10px;
+  position: relative;
+  float: right;
+  margin-right: 20px;
+  margin-top: -30px;
+}
+
+
+@media (max-width:768px) {
+  .pro-text {
+    margin-left: 120px;
+    margin-top: 20px;
+    font-size: 24px;
+
+  }
+
+  .proAll-button {
+    background-color: #14213D;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    width: 148px;
+    height: 45px;
+    margin-top: 20px;
+    margin-right: 80px;
+
+
+  }
+
+  .multiPro-main {
+    max-width: 100%;
+    width: 1155px;
+    height: 364px;
+    /*background-color: bisque;*/
+    margin-top: 120px;
+    position: absolute;
+
+  }
+
+  .prev1 {
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    background: transparent;
+    color: transparent;
+    border: none;
+    outline: none;
+  }
+
+  .next1 {
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    background: transparent;
+    color: transparent;
+    border: none;
+    outline: none;
+  }
+
+  /* #ribbon-tail1 {
+    display: table-row;
+    position: absolute;
+    margin-top: -5px;
+    margin-left: 43.2px;
+  }
+
+  #left1, #right1 {
+    display: table-cell;
+    border-top: 0px solid #F06848;
+    border-bottom: 50px solid transparent;
+    height: 0px;
+    width: 0px;
+    margin-right: 15px;
+    float: right;
+    position: absolute;
+    z-index: 1;
+  }
+
+  #left1 {
+    border-left: 50px solid #F06848;
+    margin-left: 193px;
+    margin-top: 52px;
+    position: absolute;
+    z-index: 1;
+  }
+
+  #right1 {
+    border-right: 50px solid #F06848;
+    margin-left: 233px;
+    margin-top: 52px;
+    position: absolute;
+    z-index: 1;
+  } */
+
+}
+
+@media (max-width:415px) {
+
+  .rec-text {
+    margin-left: 20px !important;
+  }
+
+  .rec-button {
+    margin-right: 10px !important;
+  }
+
+  .pro-text {
+    margin-left: 20px !important;
+
+
+  }
+
+  .proAll-button {
+    margin-right: 10px !important;
+  }
+
+  #ribbon-tail1 {
+    margin-left: 71px !important;
+  }
+}
+
+/* background-image: url(../img/arrow-circle-left.png);*/
+/* @media (max-width:370px) {
+  #ribbon-tail1 {
+    margin-left: 80px !important;
+  }
+} */
+
+@media (max-width:376px) {
+  /* #left1 {
+    margin-left: 186px !important;
+  }
+
+  #right1 {
+    margin-left: 226px !important;
+  } */
+
+  .pro-text {
+    margin-left: 20px !important;
+  }
+
+
+  #ribbon-tail1 {
+    margin-left: 35.5px !important;
+  }
+
+}
+
+@media (max-width:360px) {
+  .pro-text {
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 24px;
+
+  }
+
+  .proAll-button {
+    background-color: #14213D;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    width: 148px;
+    height: 45px;
+    margin-top: 20px;
+    margin-right: 40px;
+
+
+  }
+
+  .prev1 {
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    background: transparent;
+    color: transparent;
+    border: none;
+    outline: none;
+  }
+
+  .next1 {
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    background: transparent;
+    color: transparent;
+    border: none;
+    outline: none;
+  }
+
+
+
+  #ribbon-tail1 {
+    margin-left: 19.5px !important;
+  }
+
+}

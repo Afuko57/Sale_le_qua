@@ -1,0 +1,156 @@
+.give-main{
+  /*background-color: #9e00dc;*/
+  max-width: 100%;
+  width: 1280px;
+  height: auto;
+  margin: auto;
+}
+.give-a{
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  padding-top: 50px;
+}
+.give-b{
+  text-align: center;
+  font-size: 24px;
+}
+.gv-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 20px;
+  margin-left: 245px;
+  padding-bottom: 40px;
+  
+}
+.item-gv {
+  height: 300px;
+  width: 322px;
+  border:5px solid #F06848;
+  margin-left: 50px;
+  margin-top: 10px;
+} 
+
+.g1-img{
+  position: relative;
+  margin-left: 90px;
+  margin-top: 30px;
+ 
+}
+
+.g1-txt{
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  line-height: 25px;
+}
+
+.g2-txt{
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+}
+.g-bath{
+  font-size: 22px;
+  font-weight: bold;
+  color:#8E8E8E;
+  margin-top: 50px;;
+  text-align: center;
+}
+/*toggle*/
+
+.covermenu-give{
+  width: 1030px;
+ /*background-color: #e2db9f;*/
+  max-width: 100%;
+  margin: auto;
+}
+.menu{
+ 
+ 
+  background: transparent;
+}
+
+.showSingle, #showall{
+  display:inline-block;
+  padding:1%;
+  border-radius: 10px;
+  cursor: pointer;
+  border: solid #F06848;
+  color: #F06848;
+}
+
+
+
+.cnt{
+
+ /*background: rebeccapurple;*/
+}
+@media (max-width:768px) {
+ 
+.gv-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-left: 5%;
+    padding-bottom: 40px;
+    
+  }
+  .item-gv {
+    height: 300px;
+    width: 322px;
+    border:5px solid #F06848;
+    margin-left: 10px;
+  } 
+  .covermenu-give{
+    width: 570px;
+   /* background-color: #e2db9f;*/
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .showSingle, #showall{
+    padding:1%;
+    border-radius: 10px;
+    margin-top:5px ;
+  }
+  .menu{
+    padding-left: 5%;
+  }
+  
+}
+
+@media (max-width:360px) {
+  .give-a{
+    font-size: 24px;
+  }
+  .give-b{
+    font-size: 18px;
+  }
+  .item-gv {
+    height: 300px;
+    width: 322px;
+    border:5px solid #F06848;
+    margin-top: 10px;
+  }
+  .gv-container {
+   
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-bottom: 40px;
+    
+  } 
+  .covermenu-give{
+    width: 300px;
+   /* background-color: #e2db9f;*/
+    max-width: 100%;
+    margin-left: 40px;
+  }
+}
+@media (max-width:376px) {
+ 
+}

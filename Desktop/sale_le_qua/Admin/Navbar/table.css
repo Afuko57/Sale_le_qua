@@ -1,0 +1,20 @@
+
+#customers, #Usertable ,#Storetable{
+  font-family:'Prompt', sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+ 
+}
+
+#customers td, #customers th, #Usertable td, #Usertable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even) ,#Usertable tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover ,#Usertable tr:hover{background-color: #ddd;}
+
+#Usertable td > img {
+  max-width: 128px;
+}

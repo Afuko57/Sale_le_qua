@@ -1,0 +1,12 @@
+.wrap-select{
+	/* background-color: aquamarine; */
+}
+.options{
+	margin: auto;
+	width: 500px;
+}
+select{
+	padding: 5px;
+	margin: auto;
+	width: 200px;
+}

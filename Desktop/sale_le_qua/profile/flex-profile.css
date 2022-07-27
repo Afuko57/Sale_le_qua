@@ -1,0 +1,63 @@
+.flex-container{
+  display: flex;
+ /* background-color:#1abc9c;*/
+  flex-direction:row;
+  flex-wrap:wrap;
+  width: 1040px;
+  max-width: 100%;
+  margin: auto;
+}
+
+.child{
+  /* background-color: red; */
+
+  padding: 8px;
+  width:520px;
+  font-size: 20px;
+}
+.child:nth-child(2) {
+  background: rgb(255, 255, 255);
+  height: 550px;
+  border-radius: 20px;
+}
+/*ฝั่งซ้าย*/
+.left-img-cover{
+  margin: 0 auto;
+  width: 200px;
+  height: auto;
+  /*background-color: aquamarine;*/
+}
+.imgprofile-cover{
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: solid white;
+  
+}
+.img-profile{
+  width: auto;
+  height: 100%;
+}
+.l-user{
+  text-align: center;
+}
+.Edit{
+  text-align: center;
+  text-decoration: underline;
+  color: black;
+}
+/*ฝั่งขวา*/
+.right-txt{
+  word-break: break-all;
+  overflow: hidden;
+  width: 100%;
+
+}
+.txt-m{
+  font-size: 18px;
+  
+}
+

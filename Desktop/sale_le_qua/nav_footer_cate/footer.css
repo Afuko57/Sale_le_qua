@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap');
+.footer {
+  width: 100%;
+  background: #171E27;
+  display: block;
+  font-family: 'Prompt', sans-serif;
+  position: relative;
+  z-index: 1;
+ 
+
+}
+
+.inner-footer {
+  width: 95%;
+  margin: auto;
+  padding: 30px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.footer-items {
+  width: 15%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.footer-items p {
+  font-size: 24px;
+  text-align: justify;
+  line-height: 20px;
+  color: #fff;
+}
+
+.footer-items h1 {
+  color: #fff;
+}
+h3{
+  font-size: 24px;
+}
+.border1 {
+  height: 3px;
+  width: 40px;
+  background: #ff9800;
+  color: #ff9800;
+  background-color: #ff9800;
+  border: 0px;
+}
+
+ul {
+  list-style: none;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+ul a {
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  transition: 0.3s;
+}
+
+ul a:hover {
+  color: #ff9800;
+}
+
+ul li {
+  margin: 2px 0;
+  height: 25px;
+}
+
+li i {
+  margin-right: 20px;
+}
+
+.social-media {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  margin-left: -30px;
+}
+
+.social-media a {
+  text-decoration: none;
+}
+
+.social-media i {
+  height: 25px;
+  width: 25px;
+  margin: 20px 5px;
+  padding: 4px;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.social-media i:hover {
+  transform: scale(1.5);
+}
+
+.footer-bottom {
+  padding: 10px;
+  background: #00121b;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* for tablet mode view */
+
+@media screen and (max-width:768px) {
+  .footer-items {
+    width: 125px;
+    margin-left: 20px;
+    padding: 10px 0px 15px 0px;
+  }
+  .inner-footer {
+    width: 100%;
+    justify-content: start;
+  }
+  .footer-items>h3 {
+    font-size: 14px;
+  }
+  ul {
+    font-size: 12px;
+  }
+  .social-media i {
+    margin-left: 5px;
+    
+  }
+}
+
+/* for mobile screen view */
+
+@media screen and (max-width: 660px) {
+  .footer-items {
+    width: 100%;
+    margin-left: 50px;
+  }
+  .social-media {
+    margin-left: -100px;
+  }
+}

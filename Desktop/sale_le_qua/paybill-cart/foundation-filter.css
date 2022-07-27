@@ -1,0 +1,110 @@
+.f-category {
+  width: 1200px;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+  /*background-color: rgb(43, 255, 0);*/
+  position: relative;
+  padding-bottom: 40px;
+}
+.flex-cate {
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+ /* background-color: blueviolet;*/
+}
+
+.cate-item {
+  background: #F0F0F0;
+  width: 103px;
+  height: 98px;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+
+.cate-item:hover {
+  background-color: #f0b548;
+}
+
+.f-icon {
+  margin: 10px 0px 1px 25px;
+}
+
+.ficon-txt {
+  color: black;
+  text-align: center;
+  font-size: 12px;
+}
+/*Dropdown*/
+.notIE {
+  position: relative;
+  display: inline-block;
+}
+select {
+  display: inline-block;
+  height: 30px;
+  width: 300px;
+  outline: none;
+  color: #74646E;
+  border: 1px solid #C8BFC4;
+  border-radius: 4px;
+  box-shadow: inset 1px 1px 2px #DDD8DC;
+  background: #FFF;
+  
+  margin-left: 50px;
+  margin-top: -40px;
+  position: absolute;
+  height: 40px;
+  font-family: 'Prompt';
+}
+/* Select arrow styling */
+
+.notIE .fancyArrow {
+  width: 23px;
+  height: 28px;
+  position: absolute;
+  display: inline-block;
+  top: 1px;
+  right: 3px;
+ 
+  pointer-events: none;
+}
+/*target Internet Explorer 9 and Internet Explorer 10:*/
+
+@media screen and (min-width: 0\0) {
+  .notIE .fancyArrow {
+    display: none;
+  }
+}
+/*dropdown*/
+@media (max-width:768px) {
+  .cate-item{
+    margin-left: 15px;
+  }
+
+
+}
+
+@media (max-width:360px) {
+  .cate-item {
+    background: #F0F0F0;
+    width: 103px;
+    height: 98px;
+    margin-left: 5px;
+    border-radius: 10px;
+  }
+  select {
+   
+    height: 30px;
+    width: 200px;
+   
+    margin-left: 65px;
+    margin-top: -40px;
+    position: absolute;
+    height: 40px;
+    font-family: 'Prompt';
+  }
+}
